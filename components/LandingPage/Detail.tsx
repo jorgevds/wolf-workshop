@@ -1,6 +1,6 @@
 const Detail = () => {
   return (
-    <section className="flex justify-between h-screen bg-white align-center">
+    <section className="flex justify-between min-h-screen bg-white align-center">
       <article className="flex flex-col self-center w-3/6">
         <img src="keycap.png" className="w-full h-auto" />
       </article>

@@ -7,6 +7,10 @@
     filter: saturate(500%);
 }
 
+.heroWord {
+    filter: brightness(150%);
+}
+
 h2 {
     @apply text-xl;
 }

@@ -1,14 +1,14 @@
 const About = () => {
   return (
     <section className="flex justify-center min-h-screen sm:flex-col bg-blackMuted align-center">
-      <article className="flex flex-col self-center w-3/6 text-4xl text-white sm:w-4/6 sm:py-8">
+      <article className="flex flex-col self-center w-3/6 text-4xl text-white sm:w-4/6 sm:py-8 minmd:mr-10">
         <h1>
           Hi there, I'm <span className="text-purpleBorder">Wolf</span>
         </h1>
         <h2 className="sm:py-8">
           And this is my <span className="text-purpleBorder">workshop</span>
         </h2>
-        <p className="pt-4 text-2xl">
+        <p className="pt-4 text-xl minmd:mr-12">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
           aliquid, unde quidem aspernatur quasi architecto ad tempora tenetur
           illum. Dolorum perspiciatis nisi illum qui aut eveniet ipsum ullam

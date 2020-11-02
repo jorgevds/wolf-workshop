@@ -5,13 +5,15 @@ const Header = () => {
     <header className="sticky top-0 z-10 font-hairline text-white bg-black opacity-90">
       <nav className="flex m-auto minmd:w-4/5">
         <ul className="flex py-6">
-          <li className="m-auto text-lg minmd:pl-4 minmd:pr-12 sm:pl-4 sm:pr-6">
+          <li className="m-auto text-lg minmd:pl-4 minmd:pr-12 sm:px-4">
             <Link href="/">
               <a className="font-black tracking-widest font-title">
                 Wolf's Workshop
               </a>
             </Link>
           </li>
+        </ul>
+        <ul className="flex py-6 ml-auto">
           <li className="m-auto minmd:px-4 sm:px-2">
             <Link href="/order">
               <a>Order</a>
